@@ -212,7 +212,7 @@ class ECTtomography():
             all_settings, all_weights = self.all_settings_to_be_measured(diagonal, threshold)
             
             unique_settings = tuple(set(all_settings))
-            unique_weights = [ all_weights[all_settings.index(x)] for x in unique_settings]
+            unique_weights = [max(all_weights[i] for i, s in enumerate(all_settings) if s == x) for x in unique_settings]
 
             if self.verbose == True:
                 print("Found %d unique settings" % (len(unique_settings)))
