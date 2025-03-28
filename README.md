@@ -2,7 +2,7 @@
 
 Enhanced Compressive Threshold Quantum State Tomography (ECT-QST) is a procedure enabling quantum state tomography of systems of qudits while optimizing the number of **measurement settings** to be used. It is based on ideas from [threshold quantum state tomography (tQST)](https://doi.org/10.1063/5.0219143), which is a procedure that performs quantum state tomography optimizing the number of **projective measurements**.
 
-A paper detailing ECT-QST approach has been [published in Physical Review A](https://link.aps.org/doi/10.1103/PhysRevA.111.032436).
+A paper detailing ECT-QST approach has been [published in Physical Review A](https://dx.doi.org/10.1103/PhysRevA.111.032436).
 A preprint is available on [arXiv](https://arxiv.org/abs/2502.10031).
 
 The main files of the distribution are imported as
